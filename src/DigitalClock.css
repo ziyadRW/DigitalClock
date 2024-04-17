@@ -1,0 +1,35 @@
+body{
+    background-image: url('./83581.jpg');
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.clock{
+    font-size: 3.7rem;
+    color: white;
+    font-family:monospace ;
+    font-weight: bold;
+    text-shadow: 3px 5px 3px hsl(0, 0, 0.75);
+}
+.container {
+    backdrop-filter: blur(0.9px);
+    padding: 15px;
+    border-radius: 5px;
+}
+.footer{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    backdrop-filter: blur(0.9px);
+    padding: 5px;
+    border-radius: 10px;
+    max-width: fit-content;
+    text-align: center;
+    margin: 200px auto 0 auto;
+}
